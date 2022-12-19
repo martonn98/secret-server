@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext \".ts,.js,.vue\" --ignore-path .gitignore .",
+    "lintfix": "eslint --fix --ext \".ts,.js,.vue\" --ignore-path .gitignore .",
+    "postinstall": "nuxt prepare",
+    "preview": "nuxt preview",
+    "test": "vitest --run --reporter verbose --globals",
+    "test:watch": "vitest --reporter verbose --globals"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^3.0.0",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@nuxtjs/tailwindcss": "^6.2.0",
+    "@types/cryptr": "^4.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "@vue/eslint-config-standard": "^8.0.1",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.8.0",
+    "postcss": "^8.4.20",
+    "prettier": "^2.8.1",
+    "vitest": "^0.25.8"
+  },
+  "dependencies": {
+    "@formkit/nuxt": "^1.0.0-beta.12",
+    "@formkit/themes": "^1.0.0-beta.12",
+    "cryptr": "^6.0.3",
+    "date-fns": "^2.29.3",
+    "mongoose": "^6.8.0",
+    "nuxt": "3.0.0",
+    "typescript": "^4.9.4"
+  }
+}
